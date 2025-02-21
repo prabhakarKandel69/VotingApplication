@@ -1,0 +1,24 @@
+/* EnterWebsite.css */
+body {
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #17201f;
+    /* Red heading color */
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    color: #555;
+}

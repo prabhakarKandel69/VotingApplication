@@ -1,0 +1,16 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.22.18"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/wallet": "^5.7.0",
+    "@nomicfoundation/hardhat-ignition": "^0.15.9",
+    "django": "^99.99.99",
+    "ws": "^6.0.0"
+  }
+}

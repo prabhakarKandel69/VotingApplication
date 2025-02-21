@@ -1,0 +1,75 @@
+.voting-portal {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    /* Background color */
+    padding: 20px;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    /* Vertically align items */
+    justify-content: center;
+    gap: 20px;
+    /* Add space between the image and text */
+    margin-bottom: 20px;
+    /* Space between the header and buttons */
+    margin-top: 20px;
+    /* Add space above the entire header section */
+}
+
+.logo {
+    width: 150px;
+    /* Adjust image size */
+    height: auto;
+    margin-top: 20px;
+    /* Add spacing above the image */
+}
+
+.header-text p {
+    font-size: 1.5rem;
+    color: #000;
+    /* Text color */
+    font-weight: bold;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    /* Center the buttons */
+    gap: 20px;
+    /* Add space between buttons */
+}
+
+.custom-button {
+    background-color: #a3d9a5;
+    /* Light green color */
+    color: #000;
+    /* Text color */
+    border: none;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 250px;
+    /* Adjust button width */
+}
+
+.custom-button p {
+    margin: 5px 0 0;
+    /* Add spacing for the description */
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.custom-button:hover {
+    background-color: #8ccc90;
+    /* Darker green on hover */
+}
+
+.green-button {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

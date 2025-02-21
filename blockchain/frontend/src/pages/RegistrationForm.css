@@ -1,0 +1,89 @@
+/* src/pages/RegistrationForm.css */
+
+/* Styling for Registration Form page */
+.registration-form {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    /* White background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for Heading */
+.registration-form h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Section Headings */
+.registration-form h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    color: black;
+    /* Green text */
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Styling for input containers */
+.input-container {
+    margin-bottom: 15px;
+}
+
+.input-container label {
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-container input,
+.input-container select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling for Image Upload Section */
+.image-upload-section .input-container input[type="file"] {
+    padding: 5px;
+}
+
+/* Styling for Submit Button */
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the Login Link */
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

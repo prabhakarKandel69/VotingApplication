@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input {
+  width: 100%;
+  /* Full width */
+  padding: 12px 15px;
+  /* Padding for comfort */
+  border: 2px solid #ccc;
+  /* Light gray border */
+  border-radius: 8px;
+  /* Rounded corners */
+  font-size: 16px;
+  /* Font size */
+  transition: border-color 0.3s, box-shadow 0.3s;
+  /* Smooth transition */
+  outline: none;
+  /* Remove default outline */
+}
+
+/* Placeholder styling */
+input::placeholder {
+  color: #aaa;
+  /* Light gray color for placeholder */
+  opacity: 1;
+  /* Ensure full opacity */
+}
+
+/* Focus effect */
+input:focus {
+  border-color: #007bff;
+  /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  /* Add a subtle shadow */
+}
+
+/* Optional: Add a hover effect */
+input:hover {
+  border-color: #007bff;
+  /* Change border color on hover */
+}
+
+/* Optional: Style for disabled state */
+input:disabled {
+  background-color: #f5f5f5;
+  /* Light gray background */
+  border-color: #ddd;
+  /* Lighter border */
+  cursor: not-allowed;
+  /* Change cursor to indicate disabled */
+}
+
+/* Basic button styling */
+button {
+  padding: 8px;
+  margin: 10px;
+  background-color: #007bff;
+  /* Primary blue color */
+  color: white;
+  /* White text color */
+  padding: 12px 20px;
+  /* Padding for comfort */
+  border: none;
+  /* Remove default border */
+  border-radius: 8px;
+  /* Rounded corners */
+  font-size: 16px;
+  /* Font size */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.2s;
+  /* Smooth transition */
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
+
+/* Active effect */
+button:active {
+  transform: scale(0.95);
+  /* Slightly shrink the button */
+  background-color: #004494;
+  /* Even darker blue when active */
+}
+
+/* Disabled state */
+button:disabled {
+  background-color: #ccc;
+  /* Light gray background */
+  color: #666;
+  /* Darker gray text */
+  cursor: not-allowed;
+  /* Change cursor to indicate disabled */
+}
